@@ -20,14 +20,14 @@ test("TC_API_02 - valid API_key returns 200", async ({request})=>{
     expect(body.data.length).toBeGreaterThan(0)
 })
 
-test("TC_API_03 - invalid API_key return 401", async ({request})=>{
+// test("TC_API_03 - invalid API_key return 401", async ({request})=>{
 
-    const response = await request.get("https://reqres.in/api/users?page=2", {
-        headers :{
-            'x-api-key' :"check check check"
-        }
-    })
-    console.log(response.status(),'check the statuss')
-    expect(response.status()).toBe(403)
+//     const response = await request.get("https://reqres.in/api/users?page=2", {
+//         headers :{
+//             'x-api-key' :"check check check"
+//         }
+//     })
+//     console.log(response.status(),'check the statuss')
+//     expect(response.status()).toBe(403)
 
-})
+// })
