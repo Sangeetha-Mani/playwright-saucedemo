@@ -33,4 +33,9 @@ export const testData ={
         email:process.env.MIN_EMAIL,
         pwd:process.env.MIN_PWD,
     },
+    sqlInjection: process.env.SQL_INJECTION,
+    xssAttack: process.env.XSS_ATTACK,
+    htmlInjection: process.env.HTML_INJECTION,
+    
+
 }

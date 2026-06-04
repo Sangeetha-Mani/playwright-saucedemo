@@ -8,6 +8,4 @@ node_modules/
 /playwright/.auth/
 .env
 api-notes.txt
-/tests
-/pages
-/testData
+
